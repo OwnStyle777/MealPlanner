@@ -12,8 +12,8 @@ public class DatabaseConnection  {
     static {
         try {
             String DB_URL = "jdbc:postgresql:meals_db";
-            String USER = "postgres";
-            String PASS = "1111";
+            String USER = "";
+            String PASS = "";
 
             connection = DriverManager.getConnection(DB_URL, USER, PASS);
             connection.setAutoCommit(true);
